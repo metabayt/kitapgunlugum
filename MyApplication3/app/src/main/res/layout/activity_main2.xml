@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="9dp"
+    tools:context="com.example.bim_yazilim.myapplication.Main2Activity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="99dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridLayout
+        android:id="@+id/GridLayout"
+        android:layout_width="348dp"
+        android:layout_height="486dp"
+        android:layout_margin="8dp"
+        android:columnCount="4"
+        android:rowCount="4"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="42dp">
+
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
