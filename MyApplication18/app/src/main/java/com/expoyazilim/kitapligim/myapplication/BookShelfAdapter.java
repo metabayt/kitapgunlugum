@@ -63,6 +63,9 @@ public class BookShelfAdapter extends RecyclerView.Adapter<BookShelfAdapter.MyVi
             mDeleteImage = itemView.findViewById(R.id.deleteImage);
             mShareImage = itemView.findViewById(R.id.shareImage);
             mBookNumber = itemView.findViewById(R.id.bookNumber);
+
+
+            //yeni klasör oluştu
         }
 
 
